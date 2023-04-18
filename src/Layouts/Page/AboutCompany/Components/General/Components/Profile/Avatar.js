@@ -16,7 +16,7 @@ const WrapperAvatar = styled.div`
 
 function Avatar() {
     return (
-        <WrapperAvatar>
+        <WrapperAvatar className='ms-5 gap-4'>
             <img src={require('../../../../../../../Images/AppAvatar.png')}></img>
             <Clickable>
                 <UploadButton>
